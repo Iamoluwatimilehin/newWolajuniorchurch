@@ -1,0 +1,282 @@
+*{
+  font-family: 'Roboto Condensed', sans-serif ;
+  
+}
+body, ul {
+  margin: 0;
+  padding: 0;
+  
+}
+body{
+  background-color: black !important;
+}
+
+/* Style the navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color:rgba(0, 0, 0, 0.4);
+  color: #ffffffb3;
+  padding: 10px 20px;
+  font-size: 21px;
+  position: relative;
+  z-index: 1;
+}
+.navbar span{
+  font-size: 20px;
+}
+.nav-links a:hover {
+  color: whitesmoke /* Change color on hover */
+}
+/* Style the logo */
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  width: 67px; /* Adjust the size as needed */
+  height: auto;
+  margin-right: 10px;
+}
+
+/* Style the navigation links */
+.nav-links {
+  list-style: none;
+  display: flex;
+  margin-left: 450px;
+}
+
+.nav-links li {
+  margin-right: 20px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #ffffffbc;
+}
+
+
+
+/* Custom carousel styles */
+#myCarousel {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  z-index: -1;
+  
+}
+
+.carousel {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  margin-left: 250px;
+  
+}
+
+ .sec{
+  border-radius: 20px 20px 20px 20px;
+    overflow: hidden;
+   max-width: 570px;
+}
+
+
+.carousel-caption {
+  background-color: rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  margin-bottom: 85px;
+}
+
+.carousel-caption h3 {
+  color: #fff;
+  font-size: 34px;
+}
+
+.carousel-control {
+  background: none;
+  max-height: 516px;
+}
+
+
+
+.carousel-link li a{
+  color: white !important;
+  font-size: 20px;
+
+}
+
+section{
+background:url('./ae3becfb-546d-4ee9-95cf-b2ff7f783eb6.jpg') ;
+background-size: cover; /* Cover the entire container */
+background-position: center; /* Center the background image */
+margin-top: 460px;
+position: relative;
+}
+
+section h4{
+  
+  padding: 15px;
+  font-size: 25px;
+  color: white;
+  font-weight: bold;
+}
+
+
+.slider-caption h4{
+  font-size: 20px;
+  color: whitesmoke;
+}
+
+
+
+footer {
+  background-color: #333; /* Background color for the footer */
+  color: #fff; /* Text color for the footer */
+  padding: 20px; /* Add padding to create spacing between columns */
+}
+
+.footer-content {
+  margin-left: 200px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; 
+}
+
+/* Style each footer column */
+.footer-column {
+  flex: 1;
+  padding: 10px;
+}
+
+
+.footer-column h3 {
+  font-size: 18px; 
+  margin-bottom: 10px; 
+}
+
+
+.footer-column ul {
+  list-style: none; 
+  padding: 0;
+}
+
+.footer-column ul li {
+  margin-bottom: 5px; 
+}
+
+.footer-column ul li a {
+  color: #fff; 
+  text-decoration: none; 
+}
+
+
+.copyright {
+  text-align: center; 
+  padding-top: 20px; 
+}
+
+@media only screen and (max-width: 797px) {
+  .navbar{
+   background-color: rgba(255, 255, 255, 0.008);
+   margin-bottom: 20px;
+   flex-direction: column;
+   justify-content: space-between;
+   align-items: center;
+  }
+  .navbar span{
+   font-size: 13px;
+}
+
+section{
+  margin-top: 0;
+ 
+}
+
+.logo {
+   height: 58px;
+   margin-bottom: 10px;
+   text-align: center;
+}
+
+.carousel{margin-left:0}
+.first{
+  display: none;
+}
+
+
+
+.nav-links ul, li {
+   margin: 0;
+   padding: 0;
+   list-style: none;
+}
+
+
+/* Style the list items */
+.nav-links li {
+   margin: 0 10px;
+}
+
+.nav-links{
+ margin-right: 380px;
+}
+
+/* Style the links */
+.nav-links a {
+   text-decoration: none;
+   box-shadow: black 5px 5px 5px;
+   color: white;
+}
+
+/* Style the links on hover */
+.nav-links a:hover {
+   text-decoration: underline;
+}
+
+.footer-content{
+   margin-left:0 ;
+}
+}
+    
+  section h4{
+    padding-top: 15px;
+    font-size: 25px;
+    color: white;
+    font-weight: bold;
+  }
+  section .container {
+   padding-left: 50px;
+  }
+  
+  .row1{
+   padding-bottom: 80px;
+    max-width: 700px !important;
+  }
+ 
+  .carousel-link ul{
+    
+list-style-type: none;
+  }
+
+  .carousel-link li a{
+    color: rgb(210, 202, 202);
+    font-size: 20px;
+   line-height: 25px;
+  }
+  .slider-caption h4{
+    font-size: 20px;
+    color: whitesmoke;
+    padding-left: 30px;
+  }
+  
+
+        
+  
+        

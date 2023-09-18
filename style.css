@@ -1,0 +1,359 @@
+/* Reset some default styles */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Poppins:wght@100&family=Roboto&family=Roboto+Condensed&display=swap');
+*{
+    font-family: 'Roboto Condensed', sans-serif ;
+    
+}
+body, ul {
+    margin: 0;
+    padding: 0;
+  
+    
+}
+
+
+/* Style the navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:rgba(0, 0, 0, 0.4);
+    color: #ffffffb3;
+    padding: 10px 20px;
+    font-size: 21px;
+    position: relative;
+    z-index: 1;
+}
+.navbar span{
+    font-size: 20px;
+}
+.nav-links a:hover {
+    color: whitesmoke /* Change color on hover */
+}
+/* Style the logo */
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 67px; /* Adjust the size as needed */
+    height: auto;
+    margin-right: 10px;
+}
+
+/* Style the navigation links */
+.nav-links {
+    list-style: none;
+    display: flex;
+    margin-left: 450px;
+}
+
+.nav-links li {
+    margin-right: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #ffffffbc;
+}
+
+
+
+/* Custom carousel styles */
+#myCarousel {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    max-height: 500px;
+    margin: 0;
+    padding: 0;
+    z-index: -1; /* Move the carousel behind the content */
+}
+
+.carousel {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    margin-bottom: 85px;
+}
+
+.carousel-caption h3 {
+    color: #fff;
+    font-size: 30px;
+}
+
+.carousel-control {
+    background: none;
+    max-height: 516px;
+}
+
+/* Reset default margin and padding */
+
+
+/* Apply styles to the container */
+.visit {
+    max-width: auto;
+    
+    background-color: white;
+    margin-top: 450px;
+    display: flex;
+    align-self: center;
+    flex: 2;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+/* Style the text section on the left */
+.text {
+    text-align: center;
+    padding: 20px;
+}
+
+.text h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    font-family: 'Dancing Script', cursive;
+    color: #5F8C48;
+}
+
+.text p {
+    font-size: 20px;
+    
+    color: #645148;
+}
+
+
+.image {
+    text-align: center;
+    padding: 20px;
+    
+}
+
+.image img {
+    max-width: 300px;
+    padding: 7px;
+    height: auto;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.content {
+    position: relative;
+}
+
+
+.background-image {
+    
+    background: url(./Green\ Watercolor.jpg) center/cover no-repeat; 
+    position: relative;
+}
+
+.back-img{
+    background: rgba(218, 217, 217, 0.181);
+    position: relative;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    
+}
+
+/* Style for the text column */
+.text-column {
+    flex-basis: 50%; /* Adjust the width as needed */
+    padding: 20px;
+
+}
+.text-column h2{
+    font-family: 'Dancing Script', cursive;
+    color: #5F8C48;
+}
+
+.text-column p{
+    font-size: 20px;
+    color: #645148;
+}
+
+/* Style for the image column */
+.image-column {
+    flex-basis: 50%; /* Adjust the width as needed */
+    padding: 20px;
+    
+}
+
+.image-column img{
+    margin-left: 90px;
+    border-radius: 10%;
+    width: 70%;
+    height: 100%;
+}
+
+ /*#185770;*/
+ /* #5F8C48;*/
+ /*#645148;*/
+    
+  
+
+.column {
+    margin-top: 64px;
+    flex: 1;
+    text-align: center;
+    padding: 20px;
+    color: whitesmoke;
+    background-color: rgba(0, 0, 0, 0.1); /* Background color for columns with some opacity */
+    border: 1px solid rgba(0, 0, 0, 0.1); /* Optional: Add a border around columns */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); /* Optional: Add a box shadow for a card-like effect */
+}
+.column p{
+    font-size: 18px;
+    color: #fff; ;
+}
+
+.text-columns {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    
+}
+
+
+footer {
+    background-color: #333; /* Background color for the footer */
+    color: #fff; /* Text color for the footer */
+    padding: 20px; /* Add padding to create spacing between columns */
+}
+
+.footer-content {
+    margin-left: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+}
+
+/* Style each footer column */
+.footer-column {
+    flex: 1;
+    padding: 10px;
+}
+
+
+.footer-column h3 {
+    font-size: 18px; 
+    margin-bottom: 10px; 
+}
+
+
+.footer-column ul {
+    list-style: none; 
+    padding: 0;
+}
+
+.footer-column ul li {
+    margin-bottom: 5px; 
+}
+
+.footer-column ul li a {
+    color: #fff; 
+    text-decoration: none; 
+}
+
+
+.copyright {
+    text-align: center; 
+    padding-top: 20px; 
+}
+
+
+@media only screen and (max-width: 797px) {
+   .navbar{
+    background-color: rgba(255, 255, 255, 0.008);
+    margin-bottom: 20px;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+   }
+   .navbar span{
+    font-size: 13px;
+}
+
+
+.logo {
+    height: 58px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+
+.carousel-caption{
+    display: none;
+}
+
+.carousel-control{
+    display: none;
+}
+.text-columns {
+    flex-direction: column;
+    text-align: center;
+}
+.column {
+    width: 100%;
+}
+
+.visit{
+    margin-bottom: 60px;
+    margin-top: 0;
+}
+
+/* Reset default list styles */
+.nav-links ul, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+
+/* Style the list items */
+.nav-links li {
+    margin: 0 10px;
+}
+
+.nav-links{
+  margin-right: 380px;
+}
+
+/* Style the links */
+.nav-links a {
+    text-decoration: none;
+    box-shadow: black 5px 5px 5px;
+    color: white;
+}
+
+/* Style the links on hover */
+.nav-links a:hover {
+    text-decoration: underline;
+}
+
+.text-column,
+            .image-column {
+                flex-basis: 100%; /* Make columns full width on smaller screens */
+            }
+
+.footer-content{
+    margin-left:0 ;
+}
+}
